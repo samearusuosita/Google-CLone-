@@ -1,0 +1,81 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+#nav a {
+  margin-right: 20px;
+}
+
+#nav a.topimage {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50px;
+}
+
+#middle {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  text-align: center;
+}
+
+#searchbarcontainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#searchbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 0;
+  width: 560px;
+  border-radius: 15px;
+  border: 2px solid #d6d6d6;
+}
+
+#searchbar:hover {
+  box-shadow: 0 0 10px 2px rgb(214, 214, 214);
+}
+
+#buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+}
+
+.button:hover {
+  box-shadow: 0 0 10px 2px rgb(214, 214, 214);
+}
+
+#links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
